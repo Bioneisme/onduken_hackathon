@@ -3,6 +3,8 @@
 
 *The technical task was provided by [KazAeroSpace](https://kazaerospace.kz/), during [AITUHackDay: GIS Technologies](http://hackaton.astanait.edu.kz/).*
 
+*Separate GitHub Repositories: [Backend](https://github.com/Bioneisme/onduken_hackathon_backend), [Frontend](https://github.com/zaurbbb/onduken-react-hackathon)*
+
 - [Navigation](#navigation)
     - [Features](#features)
     - [Technologies](#technologies)
