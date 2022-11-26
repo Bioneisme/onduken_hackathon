@@ -16,10 +16,15 @@
 * **Deploy:** Docker, docker-compose, (Nginx)
 
 ## Endpoints:
-* ...
-* ...
-* ...
-* ...
+* [POST] /api/users/login - {email, password} (token, user)
+* [POST] /api/users/register - {email, name, password, repeat_password} (token, user)
+* [GET] /api/users/logout
+* [GET] /api/users/getMe (user)
+* [GET] /api/users/validate - {jwt} (token, user)
+* [POST] /api/products/parser - {category, store} (oldProductsTotal, newProductsTotal, parsedTotal, productsTotal)
+* [GET] /api/products/getAllProducts (data)
+* [GET] /api/products/getProductById/:id (data)
+* [GET] /api/products/getProductByTitle/:title (data)
 
 ## Screenshots:
 ![image](https://user-images.githubusercontent.com/92920845/204086374-ee11214a-119d-4fa9-bfe3-a95a41d3ca4c.png)
