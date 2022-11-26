@@ -1,0 +1,6 @@
+[submodule "server"]
+	path = server
+	url = https://github.com/Bioneisme/kazaerospace_hackathon_backend.git
+[submodule "client"]
+	path = client
+	url = https://github.com/zaurbbb/onduken-react-hackathon.git
