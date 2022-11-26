@@ -20,3 +20,14 @@ CREATE TABLE IF NOT EXISTS products
     created_at character varying(50) NOT NULL,
     updated_at character varying(50) NOT NULL
 );
+
+CREATE TABLE IF NOT EXISTS stores
+(
+    id SERIAL NOT NULL PRIMARY KEY,
+    title character varying(255) NOT NULL,
+    description text NOT NULL,
+    lat float NOT NULL,
+    lng float NOT NULL,
+    created_at character varying(50) NOT NULL,
+    updated_at character varying(50) NOT NULL
+);
