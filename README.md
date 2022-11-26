@@ -14,11 +14,12 @@
     - [Docker](#docker)
 
 ## Features:
-* JWT Authentication
+* Beautiful design
+* JWT Authentication (login/register/logout)
 * Dynamic search
 * Map with stores where you can buy selected product (Clustering, store info on map)
-* Data parsing (technodom, sulpak). Runs once an hour (cron) or using post request
-* Logging with rotation (rotation once an hour, archiving)
+* Data parsing (technodom, sulpak) with recording to database. Runs once an hour (cron) or using post request
+* Logging requests and parsing with rotation (rotation once an hour, archiving)
 
 
 ## Technologies:
