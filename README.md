@@ -4,11 +4,20 @@
 *The technical task was provided by [KazAeroSpace](https://kazaerospace.kz/), during [AITUHackDay: GIS Technologies](http://hackaton.astanait.edu.kz/).*
 
 - [Navigation](#navigation)
+    - [Features](#features)
     - [Technologies](#technologies)
     - [Endpoints](#endpoints)
     - [Screenshots](#screenshots)
     - [Installation](#prerequisites)
     - [Docker](#docker)
+
+## Features:
+* JWT Authentication
+* Dynamic search
+* Map with stores where you can buy selected product (Clustering, store info on map)
+* Data parsing (technodom, sulpak). Runs once an hour (cron) or using post request
+* Logging with rotation (rotation once an hour, archiving)
+
 
 ## Technologies:
 * **Front:** React.js, Redux.js, Swiper.js, Material UI
